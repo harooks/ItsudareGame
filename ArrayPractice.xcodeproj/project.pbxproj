@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F533BCA4250896B10036B057 /* WordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F533BCA3250896B10036B057 /* WordsViewController.swift */; };
 		F538859424FFC0A4003A2360 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538859324FFC0A4003A2360 /* AppDelegate.swift */; };
 		F538859624FFC0A4003A2360 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538859524FFC0A4003A2360 /* SceneDelegate.swift */; };
 		F538859824FFC0A4003A2360 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538859724FFC0A4003A2360 /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F533BCA3250896B10036B057 /* WordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsViewController.swift; sourceTree = "<group>"; };
 		F538859024FFC0A4003A2360 /* ArrayPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArrayPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F538859324FFC0A4003A2360 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F538859524FFC0A4003A2360 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				F538859324FFC0A4003A2360 /* AppDelegate.swift */,
 				F538859524FFC0A4003A2360 /* SceneDelegate.swift */,
 				F538859724FFC0A4003A2360 /* ViewController.swift */,
+				F533BCA3250896B10036B057 /* WordsViewController.swift */,
 				F538859924FFC0A4003A2360 /* Main.storyboard */,
 				F538859C24FFC0A5003A2360 /* Assets.xcassets */,
 				F538859E24FFC0A5003A2360 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				F538859824FFC0A4003A2360 /* ViewController.swift in Sources */,
 				F538859424FFC0A4003A2360 /* AppDelegate.swift in Sources */,
+				F533BCA4250896B10036B057 /* WordsViewController.swift in Sources */,
 				F538859624FFC0A4003A2360 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
