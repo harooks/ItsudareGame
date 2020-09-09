@@ -20,7 +20,7 @@ class WordsViewController: UIViewController {
     @IBAction func chooseWhen(_ sender: Any) {
         recieveWhenArray.append(wordTextField.text!)
         dismiss(animated: true, completion: nil);
-       //print(recieveWhenArray)
+       print(recieveWhenArray)
     }
     
     @IBAction func chooseWhere(_ sender: Any) {
@@ -32,13 +32,13 @@ class WordsViewController: UIViewController {
     @IBAction func chooseWho(_ sender: Any) {
         recieveWhoArray.append(wordTextField.text!)
         dismiss(animated: true, completion: nil);
-        //print(recieveWhoArray)
+        print(recieveWhoArray)
     }
     
     @IBAction func chooseWhat(_ sender: Any) {
         recieveWhatArray.append(wordTextField.text!)
         dismiss(animated: true, completion: nil);
-        //print(recieveWhatArray)
+        print(recieveWhatArray)
     }
     
     
