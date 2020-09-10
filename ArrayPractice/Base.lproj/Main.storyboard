@@ -15,8 +15,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="いつ、どこで、だれか、どうした" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e89-ht-gov">
+                                <rect key="frame" x="70" y="55" width="260" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="いつ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9yQ-TU-xYk">
-                                <rect key="frame" x="40" y="150" width="80" height="24"/>
+                                <rect key="frame" x="40" y="84" width="80" height="24"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -28,7 +35,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="___" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7CZ-YT-scZ">
-                                <rect key="frame" x="194" y="150" width="180" height="24"/>
+                                <rect key="frame" x="194" y="84" width="180" height="24"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -40,7 +47,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="___" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OSD-nc-dip">
-                                <rect key="frame" x="194" y="214" width="180" height="24"/>
+                                <rect key="frame" x="194" y="148" width="180" height="24"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -52,7 +59,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="___" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rwq-SV-YQB">
-                                <rect key="frame" x="194" y="278" width="180" height="24"/>
+                                <rect key="frame" x="194" y="212" width="180" height="24"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -64,7 +71,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="___" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LUo-uR-Iq4">
-                                <rect key="frame" x="194" y="342" width="180" height="24"/>
+                                <rect key="frame" x="194" y="276" width="180" height="24"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -76,7 +83,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="どこで" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iDn-9R-23V">
-                                <rect key="frame" x="40" y="214" width="80" height="24"/>
+                                <rect key="frame" x="40" y="148" width="80" height="24"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -89,7 +96,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="だれが" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vin-h9-VON">
-                                <rect key="frame" x="40" y="278" width="80" height="24"/>
+                                <rect key="frame" x="40" y="212" width="80" height="24"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -101,7 +108,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="どうした" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yBq-sn-Cas">
-                                <rect key="frame" x="40" y="342" width="80" height="24"/>
+                                <rect key="frame" x="40" y="276" width="80" height="24"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -112,23 +119,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vfi-SG-H5z">
-                                <rect key="frame" x="40" y="524" width="130" height="36"/>
-                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="130" id="5em-F7-bYx"/>
-                                    <constraint firstAttribute="height" constant="36" id="A8r-TY-Ldw"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="入れ替える">
-                                    <color key="titleColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="switchBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y7Y-9k-4Ct"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EAX-z6-F71">
-                                <rect key="frame" x="244" y="524" width="130" height="36"/>
+                                <rect key="frame" x="244" y="337" width="130" height="36"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="130" id="XwG-5m-KKD"/>
@@ -143,7 +135,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cie-pM-9HL">
-                                <rect key="frame" x="40" y="600" width="334" height="36"/>
+                                <rect key="frame" x="40" y="410" width="334" height="36"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="リセット">
@@ -153,15 +145,8 @@
                                     <action selector="resetBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hFk-m3-vkh"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="いつ、どこで、だれか、どうした" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e89-ht-gov">
-                                <rect key="frame" x="70" y="55" width="260" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KcK-QG-dH7">
-                                <rect key="frame" x="40" y="660" width="334" height="36"/>
+                                <rect key="frame" x="40" y="483" width="334" height="36"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="334" id="Fta-pM-Ijo"/>
@@ -183,27 +168,26 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rwq-SV-YQB" secondAttribute="trailing" constant="40" id="58C-5l-cdZ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EAX-z6-F71" secondAttribute="trailing" constant="40" id="62T-zT-CWv"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7CZ-YT-scZ" secondAttribute="trailing" constant="40" id="A1A-XC-URm"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="cie-pM-9HL" secondAttribute="bottom" constant="100" id="DvZ-24-KsB"/>
+                            <constraint firstItem="cie-pM-9HL" firstAttribute="top" secondItem="EAX-z6-F71" secondAttribute="bottom" constant="37" id="Cpa-zq-Qtg"/>
                             <constraint firstItem="LUo-uR-Iq4" firstAttribute="top" secondItem="rwq-SV-YQB" secondAttribute="bottom" constant="40" id="Fe6-YI-EMG"/>
-                            <constraint firstItem="cie-pM-9HL" firstAttribute="top" secondItem="EAX-z6-F71" secondAttribute="bottom" constant="40" id="HZ1-9l-a1F"/>
                             <constraint firstItem="Vin-h9-VON" firstAttribute="top" secondItem="iDn-9R-23V" secondAttribute="bottom" constant="40" id="Nec-9k-ewT"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cie-pM-9HL" secondAttribute="trailing" constant="40" id="P3g-Cy-Ozy"/>
                             <constraint firstItem="iDn-9R-23V" firstAttribute="top" secondItem="9yQ-TU-xYk" secondAttribute="bottom" constant="40" id="RHg-5S-pNE"/>
-                            <constraint firstItem="cie-pM-9HL" firstAttribute="top" secondItem="Vfi-SG-H5z" secondAttribute="bottom" constant="40" id="VU6-tV-CAe"/>
-                            <constraint firstItem="9yQ-TU-xYk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="aoW-Ds-3J4"/>
+                            <constraint firstItem="KcK-QG-dH7" firstAttribute="top" secondItem="cie-pM-9HL" secondAttribute="bottom" constant="37" id="Ydl-kc-9Mp"/>
                             <constraint firstItem="KcK-QG-dH7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="cXJ-N3-8IE"/>
                             <constraint firstItem="yBq-sn-Cas" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="cii-e0-TBP"/>
+                            <constraint firstItem="EAX-z6-F71" firstAttribute="top" secondItem="LUo-uR-Iq4" secondAttribute="bottom" constant="37" id="g3z-Bi-ueb"/>
                             <constraint firstItem="9yQ-TU-xYk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="hky-p9-mIJ"/>
+                            <constraint firstItem="9yQ-TU-xYk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="84" id="iTr-RG-QJg"/>
                             <constraint firstItem="rwq-SV-YQB" firstAttribute="top" secondItem="OSD-nc-dip" secondAttribute="bottom" constant="40" id="ljQ-9P-5yz"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KcK-QG-dH7" secondAttribute="trailing" constant="40" id="pdf-hT-8U3"/>
                             <constraint firstItem="iDn-9R-23V" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="piG-mZ-xUT"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OSD-nc-dip" secondAttribute="trailing" constant="40" id="qQe-de-h1u"/>
                             <constraint firstItem="yBq-sn-Cas" firstAttribute="top" secondItem="Vin-h9-VON" secondAttribute="bottom" constant="40" id="rGu-6T-UXS"/>
-                            <constraint firstItem="Vfi-SG-H5z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="rNT-el-VgZ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LUo-uR-Iq4" secondAttribute="trailing" constant="40" id="rUn-xx-pA4"/>
+                            <constraint firstItem="cie-pM-9HL" firstAttribute="top" secondItem="yBq-sn-Cas" secondAttribute="bottom" constant="110" id="ruu-9n-dh6"/>
                             <constraint firstItem="Vin-h9-VON" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="vmQ-pq-e9e"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="KcK-QG-dH7" secondAttribute="bottom" constant="40" id="wYN-xn-lAB"/>
-                            <constraint firstItem="7CZ-YT-scZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="yVE-b1-WW1"/>
+                            <constraint firstItem="7CZ-YT-scZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="84" id="xxc-OP-ztT"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -228,26 +212,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="カテゴリーを選んでね" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gNK-zV-40N">
-                                <rect key="frame" x="120" y="359" width="174" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="カテゴリーを選んでね" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gNK-zV-40N">
+                                <rect key="frame" x="26" y="348" width="174" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="v3m-qO-0le">
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="v3m-qO-0le">
                                 <rect key="frame" x="120" y="251" width="174" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h3y-BU-g9K">
-                                <rect key="frame" x="142" y="402" width="130" height="36"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h3y-BU-g9K">
+                                <rect key="frame" x="54" y="387" width="130" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="130" id="4uI-U2-Si0"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="130" id="8Dj-hF-W7U"/>
-                                    <constraint firstAttribute="height" constant="36" id="eLR-bR-9E4"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="36" id="iab-Dp-szV"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="いつ">
                                     <color key="titleColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -256,15 +235,10 @@
                                     <action selector="chooseWhen:" destination="Yr0-pc-2oa" eventType="touchUpInside" id="PmC-8v-wYF"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3kj-fP-tdE">
-                                <rect key="frame" x="142" y="520" width="130" height="36"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3kj-fP-tdE">
+                                <rect key="frame" x="54" y="505" width="130" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="36" id="Ahf-aJ-iHb"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="36" id="fEA-e1-HCD"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="130" id="h6h-Kr-MWy"/>
-                                    <constraint firstAttribute="width" constant="130" id="kTo-pN-5A3"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="だれが">
                                     <color key="titleColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -273,15 +247,10 @@
                                     <action selector="chooseWho:" destination="Yr0-pc-2oa" eventType="touchUpInside" id="fRB-0F-Gje"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cil-cL-4ER">
-                                <rect key="frame" x="142" y="461" width="130" height="36"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cil-cL-4ER">
+                                <rect key="frame" x="54" y="446" width="130" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="130" id="a63-JU-DAZ"/>
-                                    <constraint firstAttribute="height" constant="36" id="brW-Jt-niv"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="36" id="e2K-PO-xXX"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="130" id="eOZ-n4-Wdj"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="どこで">
                                     <color key="titleColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -290,19 +259,64 @@
                                     <action selector="chooseWhere:" destination="Yr0-pc-2oa" eventType="touchUpInside" id="jJD-Bu-bU3"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dfl-0G-SvJ">
-                                <rect key="frame" x="142" y="579" width="130" height="36"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dfl-0G-SvJ">
+                                <rect key="frame" x="54" y="564" width="130" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="130" id="OYU-Y9-kPx"/>
-                                    <constraint firstAttribute="height" constant="36" id="SMq-6m-9vj"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="どうした">
                                     <color key="titleColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="chooseWhat:" destination="Yr0-pc-2oa" eventType="touchUpInside" id="oYA-gL-fu9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kUi-tN-cv0">
+                                <rect key="frame" x="230" y="387" width="130" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Undo いつ">
+                                    <color key="titleColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="undoWhen:" destination="Yr0-pc-2oa" eventType="touchUpInside" id="iOy-Ce-fTX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XDs-oN-AIf">
+                                <rect key="frame" x="230" y="505" width="130" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Undo だれが">
+                                    <color key="titleColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="undoWho:" destination="Yr0-pc-2oa" eventType="touchUpInside" id="7ja-E0-t6d"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zXh-Em-bhh">
+                                <rect key="frame" x="230" y="446" width="130" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Undo どこで">
+                                    <color key="titleColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="undoWhere:" destination="Yr0-pc-2oa" eventType="touchUpInside" id="GXC-il-YkY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I7G-27-2vC">
+                                <rect key="frame" x="230" y="566" width="130" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Undoどうした">
+                                    <color key="titleColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="undoWhat:" destination="Yr0-pc-2oa" eventType="touchUpInside" id="xSf-NL-2Bf"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="言葉を入れてね" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ay-kt-2It">
@@ -312,30 +326,21 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="入れた言葉を消す" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jzp-aQ-33h">
+                                <rect key="frame" x="226" y="348" width="139" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="sRC-oU-26e" firstAttribute="trailing" secondItem="Cil-cL-4ER" secondAttribute="trailing" constant="142" id="3Tq-mW-Lqh"/>
-                            <constraint firstItem="Cil-cL-4ER" firstAttribute="top" secondItem="h3y-BU-g9K" secondAttribute="bottom" constant="23" id="824-CJ-agv"/>
-                            <constraint firstItem="3kj-fP-tdE" firstAttribute="centerX" secondItem="BAq-rm-ogT" secondAttribute="centerX" id="8DI-LQ-Pye"/>
                             <constraint firstItem="gNK-zV-40N" firstAttribute="top" secondItem="v3m-qO-0le" secondAttribute="bottom" constant="74" id="8Ku-OK-4bB"/>
-                            <constraint firstItem="dfl-0G-SvJ" firstAttribute="centerX" secondItem="BAq-rm-ogT" secondAttribute="centerX" id="EZg-8P-KTd"/>
-                            <constraint firstItem="3kj-fP-tdE" firstAttribute="leading" secondItem="sRC-oU-26e" secondAttribute="leading" constant="142" id="H1i-0T-Apf"/>
                             <constraint firstItem="sRC-oU-26e" firstAttribute="trailing" secondItem="gNK-zV-40N" secondAttribute="trailing" constant="120" id="H8z-7J-ggQ"/>
                             <constraint firstItem="sRC-oU-26e" firstAttribute="trailing" secondItem="v3m-qO-0le" secondAttribute="trailing" constant="120" id="K7R-Qh-QSD"/>
-                            <constraint firstItem="Cil-cL-4ER" firstAttribute="centerX" secondItem="BAq-rm-ogT" secondAttribute="centerX" id="LAj-WJ-aPH"/>
-                            <constraint firstItem="3kj-fP-tdE" firstAttribute="top" secondItem="Cil-cL-4ER" secondAttribute="bottom" constant="23" id="LEf-DY-YkX"/>
-                            <constraint firstItem="sRC-oU-26e" firstAttribute="trailing" secondItem="h3y-BU-g9K" secondAttribute="trailing" constant="142" id="QWg-a9-Kno"/>
-                            <constraint firstItem="sRC-oU-26e" firstAttribute="bottom" secondItem="dfl-0G-SvJ" secondAttribute="bottom" constant="101" id="Xff-yN-v3M"/>
-                            <constraint firstItem="h3y-BU-g9K" firstAttribute="top" secondItem="gNK-zV-40N" secondAttribute="bottom" constant="22" id="Ypd-6g-YiL"/>
-                            <constraint firstItem="Cil-cL-4ER" firstAttribute="leading" secondItem="sRC-oU-26e" secondAttribute="leading" constant="142" id="aGt-t1-Wxg"/>
                             <constraint firstItem="v3m-qO-0le" firstAttribute="leading" secondItem="sRC-oU-26e" secondAttribute="leading" constant="120" id="jVI-NP-ASZ"/>
-                            <constraint firstItem="dfl-0G-SvJ" firstAttribute="leading" secondItem="sRC-oU-26e" secondAttribute="leading" constant="142" id="mqx-Zs-S2J"/>
                             <constraint firstItem="gNK-zV-40N" firstAttribute="leading" secondItem="sRC-oU-26e" secondAttribute="leading" constant="120" id="nfb-n4-Eoe"/>
-                            <constraint firstItem="h3y-BU-g9K" firstAttribute="centerX" secondItem="BAq-rm-ogT" secondAttribute="centerX" id="oF4-mh-YeP"/>
-                            <constraint firstItem="h3y-BU-g9K" firstAttribute="leading" secondItem="sRC-oU-26e" secondAttribute="leading" constant="142" id="pKr-Yq-2E8"/>
-                            <constraint firstItem="sRC-oU-26e" firstAttribute="trailing" secondItem="3kj-fP-tdE" secondAttribute="trailing" constant="142" id="qhf-6P-Ne1"/>
-                            <constraint firstItem="dfl-0G-SvJ" firstAttribute="top" secondItem="3kj-fP-tdE" secondAttribute="bottom" constant="23" id="tfs-GQ-YgA"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="sRC-oU-26e"/>
                     </view>
